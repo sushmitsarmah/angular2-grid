@@ -1,7 +1,11 @@
 {
   "name": "angular2-grid",
   "private": true,
+  "version": "2.0.3",
   "description": "A grid-based drag/drop/resize directive plugin for Angular 2",
+  "module": "main.js",
+  "main": "bundles/NgGrid.umd.min.js",
+  "typings": "main.d.ts",
   "scripts": {
     "cleanup": "rimraf dist/bundles dist/components dist/directives dist/interfaces dist/modules dist/main.d.ts dist/main.metadata.json dist/main.js dist/main.js.map dist/LICENSE dist/README.md",
     "bundling": "rollup -c",
